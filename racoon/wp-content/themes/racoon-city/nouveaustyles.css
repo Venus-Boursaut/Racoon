@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+
+
+
+.mobile-menu {
+    display: none;
+}
+
+.nav-bar {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+
+.mission.section-wrapper {
+    border-top: 5px solid rgb(252, 43, 88);
+}
+
+
+
+
+
+.menuprincip span {
+    cursor: pointer;
+}
+
+.menuprincip span:nth-child(1).active {
+    animation: balance 1.5s ease-out;
+    transform-origin: bottom left;
+}
+
+@keyframes balance {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    30%,
+    60% {
+        transform: rotate(-45deg);
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-family: 'Cardo';
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul a {
+    display: block;
+    padding: 1.25rem 3rem;
+    color: #9f9f9f;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+nav ul a:visited {
+    color: #9f9f9f;
+}
+
+nav ul a:hover {
+    color: #000000;
+}
+
+nav ul .current-menu-item a {
+    color: black;
+}
+
+nav ul.menu a {
+    padding: 1.5rem 1rem;
+}
+
+main {
+    background-color: #FFFFFF;
+    font-family: 'Cardo';
+}
+
+main .articles_containeur {
+    max-width: 1000px;
+    margin: auto;
+    ;
+}
+
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 5rem;
+}
+
+main article {
+    display: flex;
+    padding-top: 2rem;
+    ;
+}
+
+.articles_containeur img {
+    max-width: 100%;
+    padding-bottom: 1rem;
+}
+
+main .owl-nav {
+    width: 1rem;
+    margin: auto;
+}
+
+main .owl-nav button {
+    height: 6rem;
+}
+
+main .owl-carousel .owl-item img {
+    width: 750px;
+    height: 550px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+main article div:first-of-type {
+    width: 100%;
+}
+
+main article div:last-of-type {
+    width: 100%;
+    margin-left: 2rem;
+}
+
+main .articles {
+    display: flex;
+    font-family: 'Cardo';
+}
+
+main .articles ul {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 300px;
+}
+
+main .article section {
+    margin: 2rem 0;
+}
+
+main aside {
+    background-color: #FBFBFB;
+}
+
+main aside .wp-block-group__inner-container a {
+    display: none;
+}
+
+main .owl-carousel img {
+    width: 100%;
+}
+
+main .articles ul a {
+    display: block;
+    padding: 1.25rem 0;
+    color: #9f9f9f;
+    text-decoration: none;
+}
+
+main .next {
+    display: flex;
+}
+
+main .next p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .next img {
+    border-radius: 150px;
+    width: 200%;
+}
+
+main .next:first-of-type {
+    flex-direction: column;
+}
+
+main .next p:first-of-type {
+    flex-direction: row-reverse;
+}
+
+main .next:last-of-type {
+    flex-direction: row-reverse;
+}
+
+body #wpadminbar a {
+    display: none;
+}
+
+body section #wp-block-group {
+    display: none;
+}
+
+body section .wp-block-search {
+    display: none;
+}
+
+aside .wp-block-latest-comments {
+    display: none;
+}
+
+main a,
+p,
+time {
+    font-family: 'Montserrat';
+}
+
+aside a .span {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 70%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C4C4C4;
+}
+
+aside #block-5,
+#block-4 h2 {
+    display: none;
+}
+
+aside #block-3 h2,
+#block-6 h2 {
+    padding-left: 1rem;
+    font-family: 'Montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+aside #block-3 a,
+#block-6 a {
+    padding-left: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #9f9f9f;
+    height: 5rem;
+    font-family: 'Cardo';
+}
+
+footer .wp-block-latest-comments__comment-meta {
+    display: none;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 320px) {
+    .nav-bar li {
+        flex: 1 1 100%;
+    }
+}
